@@ -12,7 +12,7 @@ export default function Home({services}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Solar Agency</title>
+        <title>Gshon web solutions</title>
         <meta name="description" content="BEST PROGRAMMER" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
