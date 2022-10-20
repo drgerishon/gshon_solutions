@@ -22,8 +22,8 @@ const Intro = () => {
         <Image
           src="/white-male.jpg"
           alt=""
-          height="100px"
-          width="100px"
+          // height="100px"
+          // width="100px"
           layout="fill"
           objectFit="cover"
         ></Image>
