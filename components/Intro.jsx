@@ -18,15 +18,13 @@ const Intro = () => {
         </p>
         <button className={styles.button}>Discover</button>
       </div>
-      <div className={styles.card}>
+    <div className={style.card}>
         <Image
-          src="/white-male.jpg"
-          alt=""
-          // height="100px"
-          // width="100px"
+          src={process.env.NEXT_PUBLIC_URL + "/img/Avocado.png"}
           layout="fill"
           objectFit="cover"
-        ></Image>
+          alt=""
+        />
       </div>
     </div>
   );
