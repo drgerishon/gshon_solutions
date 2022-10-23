@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import style from '../styles/Intro.module.css';
-import Image from 'next/image';
+import style from '../styles/intro.module.css';
 import Circle from './Circle';
 
 const Intro = () => {
