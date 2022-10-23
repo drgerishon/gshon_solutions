@@ -19,14 +19,7 @@ const Intro = () => {
         <button className={styles.button}>Discover</button>
       </div>
       <div className={styles.card}>
-        <Image
-          src="/white-male.jpg"
-          alt=""
-          // height="100px"
-          // width="100px"
-          layout="fill"
-          objectFit="cover"
-        ></Image>
+            <img className={styles.intro_img} src="https://assets.imgix.net/setup/serving-swimmer.jpg?q=60&auto=format%2Cenhance&crop=entropy&fit=crop&h=300&w=900" alt=""/>
       </div>
     </div>
   );

@@ -14,7 +14,6 @@ export default function Home({services}) {
       <Head>
         <title>Gshon web solutions</title>
         <meta name="description" content="BEST PROGRAMMER" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Intro />
       <Services services ={services}/>
