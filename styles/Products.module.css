@@ -1,11 +1,13 @@
 .container{
     display: flex;
+    height: 100%;
     padding: 50px;
 }
 .cardL{
     flex: 2;
     display: flex;
     flex-wrap: wrap;
+   
 }
 .cardS{
     flex: 1;
