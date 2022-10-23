@@ -12,7 +12,7 @@ const Intro = () => {
       {/* <Circle backgroundColor="#01c686" right="-40vh" /> */}
       <div className={style.card}>
         <h1 className={style.title}>
-          <span className={style.brand}>GSHON</span> GSHON WE SOLUTIONS
+          <span className={style.brand}>GSHON</span> WEB SOLUTIONS
         </h1>
         <p className={style.desc}>
           Create live segments and target the right people for messages based on
@@ -20,9 +20,9 @@ const Intro = () => {
         </p>
         <button className={style.button}>DISCOVER</button>
       </div>
-      <div className={styles.card}>
+      <div className={style.card}>
         <img
-          className={styles.intro_img}
+          className={style.intro_img}
           src="https://assets.imgix.net/setup/serving-swimmer.jpg?q=60&auto=format%2Cenhance&crop=entropy&fit=crop&h=300&w=900"
           alt=""
         />
